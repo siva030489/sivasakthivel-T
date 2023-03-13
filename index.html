@@ -1,0 +1,83 @@
+{% load static %}
+<html>
+    <head>
+        <link rel='stylesheet' type="css" href="{%static 'css/style.css'%}">
+    </head>
+</html>
+<BODY id='bg' style="background-image: url('{%static 'images/back.jpg'%}');">
+<body>
+<div id="container">
+    <div id="header">
+        <div id="logo">
+            <img src="https://www.medifee.com/hospital-pics/1605/1.jpg" Height="50%" width="100%">
+        </div>  
+        <div id="headerpart">
+            <br>
+           <h3 style="align:center;font-style:italic;margin:20px;">Apollo Hospitals</h3>
+        </div>
+    </div>
+    <div id="menu">
+        <ul>
+            <hr><a href="index.html">Home</a>
+            <a href="about.html">about</a>
+            <a href="services.html">Services</a>
+            <a href="contact.html">Contact</a>
+			<a href="login.html">Login</a>
+			
+			<hr>
+        </ul>
+    </div>
+    <br>
+    <div id="content">
+    <h1 style="color:block;"><center>Welcome to Login</center> </h1>
+    <br>
+        <form action="">
+        <table align="center" border="1" cellpadding="3px" bgcolor="gray">
+            <tr>
+                <th> User Name</th>
+                <td>
+                    <select >
+          <option>Admin</option>
+          <option>Doctor</option>
+           <option>Patient</option>
+          </select>
+                    <input type="text"/>
+                </td>
+            </tr>
+            <tr>
+                <th>Login ID</th>
+                <td>
+                    <input type="number"/>
+                </td>
+            </tr>
+             <tr>
+                <th>Password</th>
+                <td>
+                    <input type="text"/>
+                </td>
+            </tr>
+            <tr>
+                <th>Location</th>
+                <td>
+                    <input type="text"/>
+                </td>
+            </tr>
+        </table>
+        
+       <center> <input type="button" value="Login"/></center>
+    </form>
+    </div>
+    <div id="footer">
+        <b><p>Designedby :&copy;</p></b>
+        </div>
+</div>
+
+</body>
+</html>
+
+
+
+
+	
+	
+	
